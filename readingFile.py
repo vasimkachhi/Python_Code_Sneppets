@@ -1,3 +1,7 @@
+"""
+	This code reads the keys from text file and checks if that keys exists in json file.\
+	Also returns line no of 8th occurance of word manila from text file
+"""
 count = 0
 flag = True
 for index, line in enumerate(open("E:\\vasimk\\BACKUP\\BACKUP\\PythonPract\\test1.txt").readlines()):
